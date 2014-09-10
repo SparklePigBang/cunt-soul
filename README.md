@@ -84,3 +84,9 @@ Note on 2 player games
 ----------------------
 
 Some card and field abilities will have no effect in 2 player games, for example, when a jack is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a 2 player game.
+
+
+Credit
+------
+
+Fuck Brains was developed by Nemos Thorpe and Matthew Hopley. The original rules can be found [here](http://graduatewebsites.co.uk/FuckBrains.pdf "Fuck Brains Rules"). Cunt Soul is based on a slightly modified version of Fuck Brains, and was developed by Henri French and Sam Adam-Day.
