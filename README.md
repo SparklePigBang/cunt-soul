@@ -5,7 +5,7 @@ The official rules of the card game: Cunt-Soul
 Introduction
 ------------
 
-Cunt-Soul is an adaptation of the popular game Shithead, it can be played with up to 4 players. The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 jokers. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more options for playing cards.
+Cunt-Soul is an adaptation of Fuck Brains which is an adaptation of the popular game Shit Head, it can be played with up to 4 players. The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 jokers. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more options for playing cards.
 
 
 Card abilities
