@@ -100,5 +100,5 @@ Fuck Brains was developed by Nemos Thorpe and Matthew Hopley. The original rules
 
 ![Creative Commons License][license]
 
+[license]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png  "Creative Commons License Tag"
 
-[license]: http://creativecommons.org/licenses/by-sa/4.0/  "Creative Commons License Tag"
