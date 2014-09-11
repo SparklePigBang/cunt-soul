@@ -47,7 +47,7 @@ Although there is no obligation to change field cards, players may wish to chang
 Winning the Game
 ----------------
 
-To win the game a player must simply play all of their face down cards, however, play continues until last place has been decided, this player is dubbed the ‘sole-cunt’.
+To win the game a player must simply play all of their face down cards, however, play continues until last place has been decided, this player is dubbed the 'sole-cunt'.
 
 
 Card Abilities
@@ -90,7 +90,7 @@ The fact that `Joker`s act retroactively also has other concequences. When a `Jo
 Field Abilities
 ---------------
 
-As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player’s hand given certain conditions. The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
+As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player's hand given certain conditions. The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
 Find below the field card abilities.
 
 Card    | Ability
@@ -123,6 +123,12 @@ Credit
 ------
 
 Fuck Brains was developed by Nemos Thorpe and Matthew Hopley. The original rules can be found [here](http://graduatewebsites.co.uk/FuckBrains.pdf "Fuck Brains Rules"). Cunt Soul is based on a slightly modified version of Fuck Brains, and was developed by Henri French and Sam Adam-Day.
+
+
+Contact
+-------
+
+You can contact Sam at [me@samadamday.com](mailto:me@samadamday.com), or Henri at [henrifrancais@gmail.com](mailto:henrifrancais@gmail.com).
 
 
 License
