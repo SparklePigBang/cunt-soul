@@ -97,3 +97,8 @@ Credit
 ------
 
 Fuck Brains was developed by Nemos Thorpe and Matthew Hopley. The original rules can be found [here](http://graduatewebsites.co.uk/FuckBrains.pdf "Fuck Brains Rules"). Cunt Soul is based on a slightly modified version of Fuck Brains, and was developed by Henri French and Sam Adam-Day.
+
+![Creative Commons License][license]
+
+
+[license]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png  "Creative Commons License Tag"
