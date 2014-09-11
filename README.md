@@ -13,22 +13,23 @@ Card abilities
 
 Card  | Ability
 ------|-------------------------------------------
-2     | Able to be played on cards of higher value*
-3     | Following player must play a 3 
+2     | Able to be played almost* any card.
+3     | Following player must play a 3.
 4     | Allows the player to play a run of cards from 4, must be at least up to 6.
-5     | Allows the player to swap any card in their hand with one of their face up cards
-6     | Copies the ability and value of the previous card, able to be played on any card*
-7     | The player decides whether the following player must play higher or lower than the 7, able to be played on any card*
-8     | Skips the turn of the following player, stackable, i.e. 2 8’s skip 2 players
-9     | Any card can be played after a 9
-10    | Burns the discard pile and removes it from the game, player then gets another turn, able to be played on any card*
-J     | The player gets to choose whose turn it will be after them
-Q     | The player must play a card after playing a queen, must be able to be played on a queen
-K     | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa
-A     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack
-Joker | Can be played on any card, cancels the power of the previous card but retains the value
+5     | Allows the player to swap any card in their hand with one of their face up cards.
+6     | Copies the ability and value of the previous card, able to be played on almost* any card.
+7     | The player decides whether the following player must play higher or lower than the 7, able to be played on almost* any card; 7's can be played on 7's.
+8     | Skips the turn of the following player.
+9     | Any card can be played after a 9.
+10    | Burns the discard pile and removes it from the game, player then gets another turn, able to be played on almost* any card.
+J     | The player gets to choose whose turn it will be after them.
+Q     | The player must play a card after playing a queen, must be able to be played on a queen.
+K     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
+A     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
+Joker | Can be played on absolutley any card (including a 3), cancels the power of the previous card but retains the value.
 
-\* Can be played provided an ability does not restrict its placement. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
+\* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
+
 There is one non card specific effect, whenever 4 cards of the same value are played consecutively, they burn as if a 10 were played.
 
 Note that every card power stacks (so placing two 8's skips two people).
