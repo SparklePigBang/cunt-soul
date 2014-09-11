@@ -5,7 +5,7 @@ The official rules of the card game: Cunt-Soul
 Introduction
 ------------
 
-Cunt-Soul is an adaptation of Fuck Brains which is an adaptation of the popular game Shit Head; it can be played with up to 4 players. The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 jokers. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more options for playing cards.
+Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players. The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 jokers. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more or fewer options for playing cards.
 
 
 Card abilities
@@ -71,7 +71,7 @@ After a players hand is reduced below the default hand size of 5, they should pi
 Changing field cards
 --------------------
 
-Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: They have not changed field card more than 3 times prior to this occasion and provided that the source pile still exists. A player may change their field card does it at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than 3 times prior to this occasion and that the source pile still exists. A player aiming to change their field card does it at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
 
 
 Winning the game
