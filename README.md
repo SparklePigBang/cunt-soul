@@ -12,7 +12,7 @@ Setting up the game
 -------------------
 
 The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
-\[TODO\]
+![Set-up](img/CS layout.png)
 
 
 Starting the game
@@ -121,6 +121,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 [![Creative Commons License Tag][license-img]][license-url]
 
+[license]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png  "Creative Commons License Tag"
+
 
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons License"
 [license-url]: http://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License"
+
