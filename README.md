@@ -12,7 +12,8 @@ Setting up the Game
 -------------------
 
 The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
-![Set-up](img/cs-layout.png)
+
+![Set-up][setup-img]
 
 
 Starting the Game
@@ -134,6 +135,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 [license]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png  "Creative Commons License Tag"
 
 
+[setup-img]: img/cs-layout.png "Cunt Soul Setup"
 [license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons License"
 [license-url]: http://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License"
 
