@@ -31,6 +31,8 @@ Joker | Can be played on any card, cancels the power of the previous card but re
 \* Can be played provided an ability does not restrict its placement. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
 There is one non card specific effect, whenever 4 cards of the same value are played consecutively, they burn as if a 10 were played.
 
+Note that every card power stacks (so placing two 8's skips two people).
+
 
 Field Abilities
 ---------------
