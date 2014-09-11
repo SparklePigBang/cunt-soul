@@ -60,6 +60,7 @@ Setting up the game
 -------------------
 
 The dealer deals each player 3 face down cards and 9 cards for their hands, the remainder of the cards are placed between the face down cards as the source pile as below:
+\[TODO\]
 
 
 Starting the game
