@@ -101,7 +101,7 @@ Card    | Ability
 `5`     | `5`s now swap with face down cards rather than face up cards.
 `6`     | The top card of the source pile is always face-up.
 `7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
-`8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip `2` players.
+`8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
 `9`     | All cards equal to or less than `9` have the same value.
 `10`    | When cards are burned they are added to the bottom of the source pile.
 `J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
