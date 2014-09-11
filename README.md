@@ -8,6 +8,37 @@ Introduction
 Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 `Joker`s. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more or fewer options for playing cards.
 
 
+Setting up the game
+-------------------
+
+The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
+\[TODO\]
+
+
+Starting the game
+-----------------
+
+Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then starts by playing a card from their hand and play continues clockwise unless a card ability changes play. 
+
+
+Basic game mechanics
+--------------------
+
+When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (increased by 1 for every ace in the field card position, see below). If a player is unable to play on a card, they must pick up the entire discard pile. Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
+
+
+Changing field cards
+--------------------
+
+Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+
+
+Winning the game
+----------------
+
+To win the game a player must simply play all of their face down cards, however, play continues until last place has been decided, this player is dubbed the ‘sole-cunt’.
+
+
 Card abilities
 --------------
 
@@ -59,37 +90,6 @@ Card    | Ability
 `Joker` | Cancels all card abilities.
 
 As before, all field card abilities are stackable.
-
-
-Setting up the game
--------------------
-
-The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
-\[TODO\]
-
-
-Starting the game
------------------
-
-Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then starts by playing a card from their hand and play continues clockwise unless a card ability changes play. 
-
-
-Basic game mechanics
---------------------
-
-When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (increased by 1 for every ace in the field card position). If a player is unable to play on a card, they must pick up the entire discard pile. Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
-
-
-Changing field cards
---------------------
-
-Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
-
-
-Winning the game
-----------------
-
-To win the game a player must simply play all of their face down cards, however, play continues until last place has been decided, this player is dubbed the ‘sole-cunt’.
 
 
 Note on two player games
