@@ -5,34 +5,34 @@ The official rules of the card game: Cunt-Soul
 Introduction
 ------------
 
-Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 jokers. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more or fewer options for playing cards.
+Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 `Joker`s. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more or fewer options for playing cards.
 
 
 Card abilities
 --------------
 
-Card  | Ability
-------|-------------------------------------------
-2     | Able to be played almost* any card.
-3     | Following player must play a 3.
-4     | Allows the player to play a run of cards from 4, must be at least up to 6. All cards in the run are 'ability-less': they their card abilities are not in effect.
-5     | Allows the player to swap any one card in their hand with one of their face up cards.
-6     | Copies the ability and value of the previous card, able to be played on almost* any card.
-7     | The player decides whether the following player must play higher or lower than the 7; able to be played on almost* any card. 7's can be played on 7's.
-8     | Skips the turn of the following player.
-9     | Any card can be played on a 9.
-10    | Burns the discard pile and removes it from the game. The player then gets another turn. Able to be played on almost* any card.
-J     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
-Q     | The player must play a card after playing a queen, but it must be able to be played on a queen.
-K     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
-A     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
-Joker | Can be played on absolutley any card (including a 3). Cancels the power of the previous card but retains the value.
+Card    | Ability
+--------|-------------------------------------------
+`2`     | Able to be played almost* any card.
+`3`     | Following player must play a `3`.
+`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': they their card abilities are not in effect.
+`5`     | Allows the player to swap any one card in their hand with one of their face up cards.
+`6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
+`7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`'s can be played on `7`'s.
+`8`     | Skips the turn of the following player.
+`9`     | Any card can be played on a `9`.
+`10`    | Burns the discard pile and removes it from the game. The player then gets another turn. Able to be played on almost* any card.
+`J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
+`Q`     | The player must play a card after playing a queen, but it must be able to be played on a queen.
+`K`     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
+`A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
+`Joker` | Can be played on absolutley any card (including a `3`). Cancels the power of the previous card but retains the value.
 
-\* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
+\* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a `6` cannot be played on a `7` higher, a `10` cannot be played after a `3`. 
 
-Note that every card power stacks (so placing two 8's skips two people).
+Note that every card power stacks (so placing two `8`'s skips two people).
 
-There is one non card specific effect, whenever 4 cards of the same value are played consecutively, they burn as if a 10 were played.
+There is one non card specific effect, whenever `4` cards of the same value are played consecutively, they burn as if a `10` were played.
 
 
 Field Abilities
@@ -41,22 +41,22 @@ Field Abilities
 As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player’s hand given certain conditions. The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
 Find below the field card abilities.
 
-Card  | Ability
-------|-------------------------------------------
-2     | Stops secondary card abilities that allow them to be played on almost* any card (except the for the 2). I.e. 6, 7 and 10 can no longer be played on cards of higher value.
-3     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a 3. However, three of a card cannot be played on top of an existing 3.
-4     | Stops players playing multiple cards unless allowed to do so by a card ability.
-5     | 5's now swap with face down cards rather than face up cards.
-6     | The top card of the source pile is always face-up.
-7     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
-8     | Any card played has its ability stacked once, e.g. Kings change direction twice, and single 8’s skip 2 players.
-9     | All cards equal to or less than 9 have the same value.
-10    | When cards are burned they are added to the bottom of the source pile.
-J     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
-Q     | No card abilities stack.
-K     | Changes the direction of play i.e. play equal or lower, rather than higher.
-A     | Increases the number of cards in the normal hand by 1.
-Joker | Cancels all card abilities.
+Card    | Ability
+--------|-------------------------------------------
+`2`     | Stops secondary card abilities that allow them to be played on almost* any card (except the for the `2`). I.e. `6`, `7` and `10` can no longer be played on cards of higher value.
+`3`     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a `3`. However, three of a card cannot be played on top of an existing `3`.
+`4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
+`5`     | `5`'s now swap with face down cards rather than face up cards.
+`6`     | The top card of the source pile is always face-up.
+`7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
+`8`     | Any card played has its ability stacked once, e.g. Kings change direction twice, and single `8`’s skip `2` players.
+`9`     | All cards equal to or less than `9` have the same value.
+`10`    | When cards are burned they are added to the bottom of the source pile.
+`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
+`Q`     | No card abilities stack.
+`K`     | Changes the direction of play i.e. play equal or lower, rather than higher.
+`A`     | Increases the number of cards in the normal hand by 1.
+`Joker` | Cancels all card abilities.
 
 As before, all field card abilities are stackable.
 
@@ -88,7 +88,7 @@ After a players hand is reduced below the default hand size of 5, they should pi
 Changing field cards
 --------------------
 
-Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than 3 times prior to this occasion and that the source pile still exists. A player aiming to change their field card does it at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does it at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
 
 
 Winning the game
