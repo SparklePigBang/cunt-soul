@@ -58,23 +58,18 @@ Card    | Ability
 --------|-------------------------------------------
 `2`     | Able to be played almost* any card.
 `3`     | Following player must play a `3`.
-`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 
-        | 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still
-        | be placed.
+`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run <area> </area> 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still be placed.
 `5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want.
 `6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
-`7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on 
-        | almost* any card. `7`s can be played on `7`s.
+`7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`s can be played on `7`s.
 `8`     | Skips the turn of the following player.
 `9`     | Any card can be played on a `9`.
 `10`    | Burns the discard pile. Able to be played on almost* any card.
 `J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
 `Q`     | The player must play a card after playing a `Q`, but it must be able to be played on a `Q`.
 `K`     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
-`A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the 
-        | stack.
-`Joker` | Cancels the power of the previous card but retains the value. Can be played on absolutley any card (including 
-        | a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
+`A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
+`Joker` | Cancels the power of the previous card but retains the value. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
 
 \* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a `6` cannot be played on a `7` higher, a `10` cannot be played after a `3`. 
 
