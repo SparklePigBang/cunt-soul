@@ -64,14 +64,9 @@ As before, all field card abilities are stackable.
 Setting up the game
 -------------------
 
-<<<<<<< HEAD
+
 The dealer deals each player 3 face down cards and 9 cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
 ![Set-up](CS layout.png)
-=======
-The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
-\[TODO\]
->>>>>>> 2a588a061047789ac0e0fbf95e1074e07c598bcb
-
 
 Starting the game
 -----------------
