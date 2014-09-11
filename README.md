@@ -28,7 +28,7 @@ K     | Changes the direction of play i.e. clockwise to anti-clockwise or vice-v
 A     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack
 Joker | Can be played on any card, cancels the power of the previous card but retains the value
 
-* Can be played provided an ability does not restrict its placement. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
+\* Can be played provided an ability does not restrict its placement. E.g. a 6 cannot be played on a 7 higher, a 10 cannot be played after a 3. 
 There is one non card specific effect, whenever 4 cards of the same value are played consecutively, they burn as if a 10 were played.
 
 
