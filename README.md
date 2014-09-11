@@ -86,7 +86,7 @@ There is one non card specific effect, whenever `4` cards of the same value are 
 Jokers and Paradoxes
 --------------------
 
-Since `Joker`s act retroactively, paradozes can arise. For example, if a `Joker` is played on a `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (when played on top of any of the previous cards in the correct situation).
+Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker` is played on a `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (when played on top of any of the previous cards in the correct situation).
 
 The fact that `Joker`s act retroactively also has other concequences. When a `Joker` is played on a `4` which has been used to start a run, the player who played the `4` and the run must pick up the whole run (excluding the `4`). When a `Joker` is played on a `5` that was used to swap a card, the player who played the `5` and swapped must swap back.
 
