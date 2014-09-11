@@ -59,16 +59,17 @@ Card    | Ability
 `2`     | Able to be played almost* any card.
 `3`     | Following player must play a `3`.
 `4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 
-        | 'ability-less': they their card abilities are not in effect.
-`5`     | Allows the player to swap any one card in their hand with one of their face up cards.
+        | 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still
+        | be placed.
+`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want.
 `6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
 `7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on 
-        | almost* any card. `7`'s can be played on `7`'s.
+        | almost* any card. `7`s can be played on `7`s.
 `8`     | Skips the turn of the following player.
 `9`     | Any card can be played on a `9`.
 `10`    | Burns the discard pile. Able to be played on almost* any card.
 `J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
-`Q`     | The player must play a card after playing a queen, but it must be able to be played on a queen.
+`Q`     | The player must play a card after playing a `Q`, but it must be able to be played on a `Q`.
 `K`     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
 `A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the 
         | stack.
@@ -77,7 +78,7 @@ Card    | Ability
 
 \* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a `6` cannot be played on a `7` higher, a `10` cannot be played after a `3`. 
 
-Note that every card power stacks (so placing two `8`'s skips two people).
+Every card power stacks (so placing two `8`s skips two people). Note that this has no effect on the `Q`s for the following reason: Though playing multiple `Q`s should require the player to play multiple cards together, mulitple `Q`s can also be interpreted as a string of `Q`s, where each is played because of the previous' power.
 
 There is one non card specific effect, whenever `4` cards of the same value are played consecutively, they burn.
 
@@ -85,7 +86,7 @@ There is one non card specific effect, whenever `4` cards of the same value are 
 Jokers and Paradoxes
 --------------------
 
-Since `Joker`s act retroactively, paradozes can arise. For example, if a `Joker` is played on a `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`'s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (when played on top of any of the previous cards in the correct situation).
+Since `Joker`s act retroactively, paradozes can arise. For example, if a `Joker` is played on a `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (when played on top of any of the previous cards in the correct situation).
 
 The fact that `Joker`s act retroactively also has other concequences. When a `Joker` is played on a `4` which has been used to start a run, the player who played the `4` and the run must pick up the whole run (excluding the `4`). When a `Joker` is played on a `5` that was used to swap a card, the player who played the `5` and swapped must swap back.
 
@@ -101,10 +102,10 @@ Card    | Ability
 `2`     | Stops secondary card abilities that allow them to be played on almost* any card (except the for the `2`). I.e. `6`, `7` and `10` can no longer be played on cards of higher value.
 `3`     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a `3`. However, three of a card cannot be played on top of an existing `3`.
 `4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
-`5`     | `5`'s now swap with face down cards rather than face up cards.
+`5`     | `5`s now swap with face down cards rather than face up cards.
 `6`     | The top card of the source pile is always face-up.
 `7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
-`8`     | Any card played has its ability stacked once, e.g. Kings change direction twice, and single `8`’s skip `2` players.
+`8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip `2` players.
 `9`     | All cards equal to or less than `9` have the same value.
 `10`    | When cards are burned they are added to the bottom of the source pile.
 `J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
@@ -119,7 +120,7 @@ As before, all field card abilities are stackable.
 Note on two player games
 ----------------------
 
-Some card and field abilities will have no effect in two player games, for example, when a jack is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a teo player game.
+Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a teo player game.
 
 
 Credit
