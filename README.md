@@ -59,7 +59,7 @@ Card    | Ability
 --------|-------------------------------------------
 `2`     | Able to be played almost* any card.
 `3`     | Following player must play a `3`.
-`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run <area> </area> 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still be placed.
+`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still be placed.
 `5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want.
 `6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
 `7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`s can be played on `7`s.
