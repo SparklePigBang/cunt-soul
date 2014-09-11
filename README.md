@@ -77,13 +77,13 @@ Each player selects three cards from their hands to be placed face up on top of 
 Basic game mechanics
 --------------------
 
-After a players hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (increased by 1 for every ace in the field card position). If a player is unable to play on a card, they must pick up the entire discard pile. Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards.
+When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (increased by 1 for every ace in the field card position). If a player is unable to play on a card, they must pick up the entire discard pile. Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
 
 
 Changing field cards
 --------------------
 
-Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does it at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
 
 
 Winning the game
