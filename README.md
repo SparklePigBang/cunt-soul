@@ -19,7 +19,7 @@ The dealer deals each player three face down cards and nine cards for their hand
 Starting the Game
 -----------------
 
-Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
+Each player selects three cards from their hands to be placed face up on top of their face down cards and one card to be placed face down next to their face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: the purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
 
 
 Basic Game Mechanics
@@ -35,7 +35,7 @@ Players do not have access to their face up or face down cards until they have p
 Burning
 -------
 
-Under certain conditions, the discard pile gets burned. In this situdation, whole discard pile is taken out of the game and the player who brought about the burn has another turn.
+Under certain conditions, the discard pile gets burned. In this situation, whole discard pile is taken out of the game and the player who brought about the burn has another turn.
 
 
 Changing Field Cards
@@ -57,9 +57,9 @@ Each card has a special ability that come into effect each time they are played.
 
 Card    | Ability
 --------|-------------------------------------------
-`2`     | Able to be played almost* any card.
+`2`     | Able to be played on almost* any card.
 `3`     | Following player must play a `3`.
-`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': they their card abilities are not in effect. Multiples of cards of the same value may still be placed.
+`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same value may still be placed.
 `5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want.
 `6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
 `7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`s can be played on `7`s.
@@ -116,7 +116,7 @@ As before, all field card abilities are stackable.
 Note on Two Player Games
 ------------------------
 
-Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a teo player game.
+Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a two player game.
 
 
 Credit
