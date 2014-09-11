@@ -1,4 +1,4 @@
-The official rules of the card game: Cunt-Soul
+The Official Rules of the Card Game: Cunt-Soul
 ==============================================
 
 
@@ -8,20 +8,20 @@ Introduction
 Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 `Joker`s.
 
 
-Setting up the game
+Setting up the Game
 -------------------
 
 The dealer deals each player three face down cards and nine cards for their hands, the remainder of the cards are placed between the face down cards as the source pile. See below:
 ![Set-up](img/CS layout.png)
 
 
-Starting the game
+Starting the Game
 -----------------
 
 Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
 
 
-Basic game mechanics
+Basic Game Mechanics
 --------------------
 
 A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same value can be played at once. Generally, cards played must have a value greater than or equal to the previous, though many cards have the ability to affect this.
@@ -37,19 +37,19 @@ Burning
 Under certain conditions, the discard pile gets burned. In this situdation, whole discard pile is taken out of the game and the player who brought about the burn has another turn.
 
 
-Changing field cards
+Changing Field Cards
 --------------------
 
 Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
 
 
-Winning the game
+Winning the Game
 ----------------
 
 To win the game a player must simply play all of their face down cards, however, play continues until last place has been decided, this player is dubbed the ‘sole-cunt’.
 
 
-Card abilities
+Card Abilities
 --------------
 
 Each card has a special ability that come into effect each time they are played.
@@ -112,8 +112,8 @@ Card    | Ability
 As before, all field card abilities are stackable.
 
 
-Note on two player games
-----------------------
+Note on Two Player Games
+------------------------
 
 Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a teo player game.
 
