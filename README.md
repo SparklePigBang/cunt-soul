@@ -5,7 +5,7 @@ The official rules of the card game: Cunt-Soul
 Introduction
 ------------
 
-Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 `Joker`s. In general you must follow a played card with a card of equal value or one of greater value, however, all cards have abilities that allow more or fewer options for playing cards.
+Cunt-Soul is an adaptation of Fuck Brains which is itself an adaptation of the popular game Shit Head; it can be played with up to 4 players (more if you use multiple decks). The objective of the game is to be the first to play all of your cards. The game is played with a full 54 card deck i.e. including 2 `Joker`s.
 
 
 Setting up the game
@@ -18,13 +18,23 @@ The dealer deals each player three face down cards and nine cards for their hand
 Starting the game
 -----------------
 
-Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then starts by playing a card from their hand and play continues clockwise unless a card ability changes play. 
+Each player selects three cards from their hands to be placed face up on top of the face down cards and one card to be placed face down next to the face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: The purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
 
 
 Basic game mechanics
 --------------------
 
-When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (increased by 1 for every ace in the field card position, see below). If a player is unable to play on a card, they must pick up the entire discard pile. Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
+A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same value can be played at once. Generally, cards played must have a value greater than or equal to the previous, though many cards have the ability to affect this.
+
+When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (the default hand size is increased by 1 for every ace in the field card position, see below). If a player is unable to play on a card, they must pick up the entire discard pile. 
+
+Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
+
+
+Burning
+-------
+
+Under certain conditions, the discard pile gets burned. In this situdation, whole discard pile is taken out of the game and the player who brought about the burn has another turn.
 
 
 Changing field cards
