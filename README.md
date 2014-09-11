@@ -116,7 +116,7 @@ As before, all field card abilities are stackable.
 Note on Two Player Games
 ------------------------
 
-Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the king as a card has no effect in a two player game.
+Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the `K` as a card has no effect in a two player game.
 
 
 Credit
