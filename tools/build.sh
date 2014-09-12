@@ -15,6 +15,7 @@ pandoc \
 	--variable fontfamily="bookman" \
 	--variable table-second-width="16cm" \
 	--standalone \
+	--smart \
 	--template=templates/pandoc-template.latex \
 	README.md
 sed -i 's/{@{}ll@{}}/{@{}lp{16cm}@{}}/g' tmp/rules.latex
@@ -27,6 +28,7 @@ pandoc \
 	-t html5 \
 	-o rules.html \
 	--smart \
+	--standalone \
 	README.md
 
 # Clean up
