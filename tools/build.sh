@@ -29,6 +29,7 @@ pandoc \
 	-o rules.html \
 	--smart \
 	--standalone \
+	--template=templates/pandoc-template.html5 \
 	README.md
 
 # Clean up
