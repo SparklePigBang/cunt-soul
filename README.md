@@ -25,9 +25,9 @@ Each player selects three cards from their hands to be placed face up on top of 
 Basic Game Mechanics
 --------------------
 
-A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same value can be played at once. Generally, cards played must have a value greater than or equal to the previous, though many cards have the ability to affect this.
+A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same value can be played at once. Generally, cards played must have a value greater than or equal to the previous, though many cards have the ability to affect this. When there are no cards in the discard pile, any card can be played. If a player has no valid cards to play, they must pick up the enitire discard pile; play then resumes with the next player.
 
-When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (the default hand size is increased by 1 for every ace in the field card position, see below). If a player is unable to play on a card, they must pick up the entire discard pile. 
+When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (the default hand size is increased by 1 for every ace in the field card position, see below).
 
 Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
 
@@ -43,7 +43,7 @@ Changing Field Cards
 
 Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. 
 
-A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn, they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile, this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile; this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
 
 
 Winning the Game
@@ -69,7 +69,7 @@ Card    | Ability
 `9`     | Any card can be played on a `9`.
 `10`    | Burns the discard pile. Able to be played on almost* any card.
 `J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
-`Q`     | The player must play a card after playing a `Q`, but it must be able to be played on a `Q`.
+`Q`     | The player must play another card after playing a `Q`, but it must be able to be played on a `Q`.
 `K`     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
 `A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
 `Joker` | Cancels the power of the previous card but retains the value. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
@@ -78,7 +78,7 @@ Card    | Ability
 
 Every card power stacks (so placing two `8`s skips two people). Note that this has no effect on the `Q`s for the following reason: Though playing multiple `Q`s should require the player to play multiple cards together, mulitple `Q`s can also be interpreted as a string of `Q`s, where each is played because of the previous' power.
 
-There is one non card specific effect, whenever `4` cards of the same value are played consecutively, they burn.
+There is one non card specific effect: whenever `4` cards of the same value are played consecutively, they burn.
 
 
 Jokers and Paradoxes
@@ -92,7 +92,10 @@ The fact that `Joker`s act retroactively also has other concequences. When a `Jo
 Field Abilities
 ---------------
 
-As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player's hand given certain conditions. The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
+As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player's hand given certain conditions. 
+
+The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
+
 Find below the field card abilities.
 
 Card    | Ability
@@ -105,7 +108,7 @@ Card    | Ability
 `7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
 `8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
 `9`     | All cards equal to or less than `9` have the same value.
-`10`    | When cards are burned they are added to the bottom of the source pile.
+`10`    | When cards are burned they are added to the bottom of the source pile, if it exists.
 `J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
 `Q`     | No card abilities stack.
 `K`     | Changes the direction of play i.e. play equal or lower, rather than higher.
