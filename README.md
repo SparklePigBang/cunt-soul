@@ -19,7 +19,7 @@ The dealer deals each player three face down cards and nine cards for their hand
 Starting the Game
 -----------------
 
-Each player selects three cards from their hands to be placed face up on top of their face down cards and one card to be placed face down next to their face up cards as their field card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: the purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
+Each player selects three cards from their hands to be placed face up on top of their face down cards and one card to be placed face down next to their face up cards as their *field* card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: the purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
 
 
 Basic Game Mechanics
