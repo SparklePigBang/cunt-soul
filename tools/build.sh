@@ -14,6 +14,8 @@ pandoc \
 	--variable geometry="margin=2cm" \
 	--variable fontfamily="bookman" \
 	--variable table-second-width="16cm" \
+	--variable author-meta="Henri French and Sam Adam-Day" \
+	--variable title-meta="Cunt Soul Official Rules" \
 	--standalone \
 	--smart \
 	--template=templates/pandoc-template.latex \
@@ -27,6 +29,8 @@ pandoc \
 	-f markdown_github \
 	-t html5 \
 	-o rules.html \
+	--variable author-meta="Henri French and Sam Adam-Day" \
+	--variable title-meta="Cunt Soul Official Rules" \
 	--smart \
 	--standalone \
 	--template=templates/pandoc-template.html5 \
