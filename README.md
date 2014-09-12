@@ -131,6 +131,12 @@ Contact
 You can contact Sam at [me@samadamday.com](mailto:me@samadamday.com), or Henri at [henrifrancais@gmail.com](mailto:henrifrancais@gmail.com).
 
 
+Other Versions
+--------------
+
+These rules are available in [HTML form](http://omgwac.com/cunt-soul/rules.html) and as a [PDF](http://omgwac.com/cunt-soul/rules.pdf). The lastest source can be found at [Github](https://github.com/SparklePigBang/cunt-soul).
+
+
 License
 -------
 
