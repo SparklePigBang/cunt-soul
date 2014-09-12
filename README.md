@@ -142,6 +142,6 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 
 [setup-img]: img/cs-layout.png "Cunt Soul Setup"
-[license-img]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons License"
+[license-img]: img/cc-by-sa.png "Creative Commons License"
 [license-url]: http://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons License"
 
