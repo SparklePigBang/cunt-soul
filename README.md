@@ -21,7 +21,7 @@ The dealer deals each player three face down cards and nine cards for their hand
 Starting the Game
 -----------------
 
-Each player selects three cards from their hands to be placed face up on top of their face down cards and one card to be placed face down next to their face up cards as their *field* card. After all players have placed their face down field cards, they may be turned over to see which field effects are in play. Note: the purpose of placing the field cards face down until all players are ready to start is to ensure a fair start for all players. The player to the left of the dealer then begins their turn and play continues clockwise.
+Each player selects three cards from their hands which will be placed face up and one card which will be face up next to their face up cards as their *field* card. However, these are placed faced down initially so that no one can get an unfair advantage from seeing others' cards. Once everyone has placed these cards, they are turn face up. The player to the left of the dealer then begins their turn and play continues clockwise.
 
 
 Basic Game Mechanics
@@ -45,7 +45,7 @@ Changing Field Cards
 
 Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. 
 
-A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand and then discard one of their un-swapped face-up cards and draw a fresh face-up card from the source pile; this card is then placed horizontally, face up, to indicate that a field card swap has been made. 
+A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand and then place one of their un-swapped face-up cards in the burn pile and draw a fresh face-up card from the source pile; this card is then placed horizontally, face up, to indicate that a field card swap has been made. Note: it must be done in this order.
 
 
 Winning the Game
@@ -64,7 +64,7 @@ Card    | Ability
 `2`     | Able to be played on almost* any card.
 `3`     | Following player must play a `3`.
 `4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same value may still be placed.
-`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want.
+`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced be a horizontal face up card.
 `6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
 `7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`s can be played on `7`s.
 `8`     | Skips the turn of the following player.
@@ -103,21 +103,23 @@ Find below the field card abilities.
 Card    | Ability
 --------|-------------------------------------------
 `2`     | Stops secondary card abilities that allow them to be played on almost* any card (except the for the `2`). I.e. `6`, `7` and `10` can no longer be played on cards of higher value.
-`3`     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a `3`. However, three of a card cannot be played on top of an existing `3`.
+`3`     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a `3`. However, three of a card cannot be played on top of an existing `3`. Also, if three `3`s is placed on three cards of value, this does not burn.
 `4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
 `5`     | `5`s now swap with face down cards rather than face up cards.
-`6`     | The top card of the source pile is always face-up.
+`6`     | The top card of the source pile is always face-up. When players pick up multiple cards, they should reveal each card in turn.
 `7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
 `8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
 `9`     | All cards equal to or less than `9` have the same value.
-`10`    | When cards are burned they are added to the bottom of the source pile, if it exists.
-`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves).
+`10`    | When cards are burned they are added to the bottom of the source pile, if it exists. This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
+`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). This does not overrule normal cards, e.g. if an `8` is placed, the person who played does not get to choose the next player, and one person is skipped.
 `Q`     | No card abilities stack.
-`K`     | Changes the direction of play i.e. play equal or lower, rather than higher.
+`K`     | Changes the direction of play i.e. play equal or lower, rather than higher. This also affects the `4`: runs now go in reverse.
 `A`     | Increases the number of cards in the normal hand by 1.
 `Joker` | Cancels all card abilities.
 
 As before, all field card abilities are stackable.
+
+Note that if a `6` and at at least one `A` are chosen as the initial field cards, then the effect of the `6` preceeds that of the `A`. That is, the top card of the source pile should be revealed, *then* each player should take more cards as appropriate.
 
 
 Note on Two Player Games
