@@ -82,7 +82,7 @@ Value   | Ability
 `A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
 `Joker` | Cancels the power of the previous card, and its derived value becomes the *base* value of the previous card. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
 
-/* Able to be placed on cards which have a greater derived value.
+\* Able to be placed on cards which have a greater derived value.
 
 Every card power stacks (so placing two `8`s skips two people). Note that this has no effect on the `Q`s for the following reason: Though playing multiple `Q`s should require the player to play multiple cards together, mulitple `Q`s can also be interpreted as a string of `Q`s, where each is played because of the previous' power.
 

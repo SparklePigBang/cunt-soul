@@ -14,6 +14,7 @@ pandoc \
 	--variable geometry="margin=2cm" \
 	--variable fontfamily="bookman" \
 	--variable table-second-width="16cm" \
+	--variable table-third-width="16cm" \
 	--variable author-meta="Henri French and Sam Adam-Day" \
 	--variable title-meta="Cunt Soul Official Rules" \
 	--standalone \
