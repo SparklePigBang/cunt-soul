@@ -18,6 +18,12 @@ The dealer deals each player three face down cards and nine cards for their hand
 ![Set-up][setup-img]
 
 
+Base and Derived Value
+----------------------
+
+In Cunt Soul, all cards have a *base* value and a *dervied* value. The base value is the value as displayed on the card, e.g. `5` or `J`. By default, the derived value is the base value, however a card may have its derived value altered as a result of the mechanics of the game.
+
+
 Starting the Game
 -----------------
 
@@ -27,11 +33,11 @@ Each player selects three cards from their hands which will be placed face up an
 Basic Game Mechanics
 --------------------
 
-A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same value can be played at once. Generally, cards played must have a value greater than or equal to the previous, though many cards have the ability to affect this. When there are no cards in the discard pile, any card can be played. If a player has no valid cards to play, they must pick up the enitire discard pile; play then resumes with the next player.
+A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same *base* value can be played at once. Generally, cards played must have a base value greater than or equal to the derived value of previous, though many cards have the ability to affect this. When there are no cards in the discard pile, any card can be played. If a player has no valid cards to play, they must pick up the enitire discard pile; play then resumes with the next player.
 
 When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (the default hand size is increased by 1 for every ace in the field card position, see below).
 
-Players do not have access to their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
+Players cannot play their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
 
 
 Burning
@@ -57,36 +63,38 @@ To win the game a player must simply play all of their face down cards; however,
 Card Abilities
 --------------
 
-Each card has a special ability that come into effect each time they are played.
+Each value has a special ability that comes into effect each time a card with that value is played. Initially this is the base value, but sometimes this will be the derived value.
 
-Card    | Ability
+Value   | Ability
 --------|-------------------------------------------
-`2`     | Able to be played on almost* any card.
-`3`     | Following player must play a `3`.
-`4`     | Allows the player to play a run of cards from `4`, must be at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same value may still be placed.
-`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced be a horizontal face up card.
-`6`     | Copies the ability and value of the previous card, able to be played on almost* any card.
-`7`     | The player decides whether the following player must play higher or lower than the `7`; able to be played on almost* any card. `7`s can be played on `7`s.
+`2`     | *Overrules*\*.
+`3`     | Following player must play a base-`3`.
+`4`     | Allows the player to play a run of cards—in terms of base value—from `4` up to at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same base value may still be placed.
+`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced by a horizontal face up card.
+`6`     | *Overrules*\*. When played, its derived value becomes the *derived* value of the previous card and then the game proceeds as it had been its derived value; for example, when playing a `6` on `5`, the derived value of the `6` becomes the derived value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`.
+`7`     | *Overrules*\*. The player decides whether the following player must play higher or lower in base value than `7`. `7`s can be played on `7`s.
 `8`     | Skips the turn of the following player.
 `9`     | Any card can be played on a `9`.
-`10`    | Burns the discard pile. Able to be played on almost* any card.
+`10`    | *Overrules*\*. Burns the discard pile.
 `J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
 `Q`     | The player must play another card after playing a `Q`, but it must be able to be played on a `Q`.
-`K`     | Reverses the direction of play i.e. clockwise to anti-clockwise or vice-versa.
+`K`     | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa.
 `A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
-`Joker` | Cancels the power of the previous card but retains the value. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
+`Joker` | Cancels the power of the previous card, and its derived value becomes the *base* value of the previous card. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
 
-\* 'Almost any' means that the card in question can be placed on any card that does not specifically disallow the play of that card. E.g. a `6` cannot be played on a `7` higher, a `10` cannot be played after a `3`. 
+/* Able to be placed on cards which have a greater derived value.
 
 Every card power stacks (so placing two `8`s skips two people). Note that this has no effect on the `Q`s for the following reason: Though playing multiple `Q`s should require the player to play multiple cards together, mulitple `Q`s can also be interpreted as a string of `Q`s, where each is played because of the previous' power.
 
-There is one non card specific effect: whenever `4` cards of the same value are played consecutively, they burn.
+There is one non card specific effect: whenever four cards of the same base value are played consecutively, they burn.
+
+TODO: exaplain further about derived/base
 
 
 Jokers and Paradoxes
 --------------------
 
-Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker` is played on a `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (when played on top of any of the previous cards in the correct situation).
+Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker` is played on an `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (if the `6` is played on a card of higher derived value).
 
 The fact that `Joker`s act retroactively also has other concequences. When a `Joker` is played on a `4` which has been used to start a run, the player who played the `4` and the run must pick up the whole run (excluding the `4`). When a `Joker` is played on a `5` that was used to swap a card, the player who played the `5` and swapped must swap back.
 
@@ -94,38 +102,38 @@ The fact that `Joker`s act retroactively also has other concequences. When a `Jo
 Field Abilities
 ---------------
 
-As well as each card having a card ability, each card also has a field ability which is a global effect that affects all players whilst they are in play. Each player has a field card that can be swapped with a card in the player's hand given certain conditions. 
+As well as each value having an ability it also has a field ability. This is a global effect to all players whilst it is in play. Each player has a field card that can be swapped with a card in the player's hand under certain conditions. 
 
 The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
 
-Find below the field card abilities.
+Find below the field abilities.
 
-Card    | Ability
+Value   | Ability
 --------|-------------------------------------------
-`2`     | Stops secondary card abilities that allow them to be played on almost* any card (except the for the `2`). I.e. `6`, `7` and `10` can no longer be played on cards of higher value.
-`3`     | Whenever three of any card appear consecutively in the discard pile, it becomes in value and power a `3`. However, three of a card cannot be played on top of an existing `3`. Also, if three `3`s is placed on three cards of value, this does not burn.
+`2`     | Stops all values except `2` from *Overruling*.
+`3`     | Whenever three of any card appear consecutively in the discard pile, their derived value becomes `3`, which then act in accordance with the ability of the `3`.
 `4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
-`5`     | `5`s now swap with face down cards rather than face up cards.
+`5`     | Cards of derived value `5` now swap with face down cards rather than face up cards.
 `6`     | The top card of the source pile is always face-up. When players pick up multiple cards, they should reveal each card in turn.
-`7`     | The player decides whether the next player must play higher or lower than the card played (though playing a card of the same value is always allowed).
-`8`     | Any card played has its ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
-`9`     | All cards equal to or less than `9` have the same value.
+`7`     | The player decides whether the next player must play higher or lower in base value than the card played (though playing a card of the same base value is always allowed).
+`8`     | Any card played has its base ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
+`9`     | All cards of base value equal to or less than `9` have derived value `9`.
 `10`    | When cards are burned they are added to the bottom of the source pile, if it exists. This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
-`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). This does not overrule normal cards, e.g. if an `8` is placed, the person who played does not get to choose the next player, and one person is skipped.
-`Q`     | No card abilities stack.
-`K`     | Changes the direction of play i.e. play equal or lower, rather than higher. This also affects the `4`: runs now go in reverse.
+`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). This does not override normal cards, e.g. if an `8` is placed, the person who played does not get to choose the next player, and one person is skipped.
+`Q`     | No abilities stack.
+`K`     | Changes the orientation of play e.g. from playing equal or higher (in value) to playing equal or lower. This also affects the `4`: runs now go in reverse.
 `A`     | Increases the number of cards in the normal hand by 1.
-`Joker` | Cancels all card abilities.
+`Joker` | Cancels all abilities.
 
-As before, all field card abilities are stackable.
+As before, all field abilities are stackable.
 
-Note that if a `6` and at at least one `A` are chosen as the initial field cards, then the effect of the `6` preceeds that of the `A`. That is, the top card of the source pile should be revealed, *then* each player should take more cards as appropriate.
+Note that if a `6` and at least one `A` are chosen as the initial field cards, then the effect of the `6` preceeds that of the `A`. That is, the top card of the source pile should be revealed, *then* each player should take more cards as appropriate.
 
 
 Note on Two Player Games
 ------------------------
 
-Some card and field abilities will have no effect in two player games, for example, when a `J` is played, both as card and in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the `K` as a card has no effect in a two player game.
+Some card and field abilities will have no effect in two player games, for example, when a `J` is played, either as card or in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the `K` as a card has no effect in a two player game.
 
 
 Credit
