@@ -60,7 +60,7 @@ Winning the Game
 To win the game a player must simply play all of their face down cards; however, play continues until last place has been decided, this player is dubbed the 'sole-cunt'.
 
 
-Card Abilities
+Abilities
 --------------
 
 Each value has a special ability that comes into effect each time a card with that value is played. Initially this is the base value, but sometimes this will be the derived value.
@@ -133,6 +133,26 @@ Note on Two Player Games
 
 Some card and field abilities will have no effect in two player games, for example, when a `J` is played, either as card or in field position, the effect cannot come into play as a player cannot choose themselves to be the next person to play. Similarly the `K` as a card has no effect in a two player game.
 
+
+Cheatsheet
+----------
+
+Value   | Ability 			| Field Ability
+--------|-------------------|---------------------
+`2`     | Resetter			| Small is Mighty
+`3`     | The Bitch			| Three's a Bitch
+`4`     | Runner			| I'm so Lonely
+`5`     | Swapper			| Bottom-Swapper
+`6`     | Mirror			| I See You
+`7`     | Higher or Lower 	| Bifurcation
+`8`     | Skips One 		| Stacker
+`9`     | Clean Slate		| We the People
+`10`    | Burn 				| Phoenixes
+`J`     | Chivalry			| Plague of Chivalry
+`Q`     | And Another		| No Shelves
+`K`     | Back to You		| Unnatural Order
+`A`     | High Five			| Big Hand
+`Joker` | Neutralise		| Exterminate
 
 Credit
 ------
