@@ -88,8 +88,6 @@ Every card power stacks (so placing two `8`s skips two people). Note that this h
 
 There is one non card specific effect: whenever four cards of the same base value are played consecutively, they burn.
 
-TODO: exaplain further about derived/base
-
 
 Jokers and Paradoxes
 --------------------
