@@ -21,7 +21,7 @@ The dealer deals each player three face down cards and nine cards for their hand
 Base and Derived Value
 ----------------------
 
-In Cunt Soul, all cards have a *base* value and a *dervied* value. The base value is the value as displayed on the card, e.g. `5` or `J`. By default, the derived value is the base value, however a card may have its derived value altered as a result of the mechanics of the game.
+In Cunt Soul, all cards have a *base* value and a *dervied* value. The base value is the value as displayed on the card, e.g. `5` or `J`. By default, the derived value is the base value, however a card may have its derived value altered as a result of the mechanics of the game. In some situations, a card may get a special derived value: `table`.
 
 
 Starting the Game
@@ -51,7 +51,7 @@ Changing Field Cards
 
 Although there is no obligation to change field cards, players may wish to change the flow of the game in order to react to being behind or if a player is particularly far in front, or just to try and gain some advantage in the confusion. 
 
-A player wishing to change their field card may do so providing: they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand and then place one of their un-swapped face-up cards in the burn pile and draw a fresh face-up card from the source pile; this card is then placed horizontally, face up, to indicate that a field card swap has been made. Note: it must be done in this order.
+A player wishing to change their field card may do so providing they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand. Note: it must be done in this order.
 
 
 Winning the Game
@@ -71,7 +71,7 @@ Value   | Ability
 `3`     | Following player must play a base-`3`.
 `4`     | Allows the player to play a run of cards—in terms of base value—from `4` up to at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same base value may still be placed.
 `5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced by a horizontal face up card.
-`6`     | *Overrules*\*. When played, its derived value becomes the *derived* value of the previous card and then the game proceeds as it had been its derived value; for example, when playing a `6` on `5`, the derived value of the `6` becomes the derived value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`.
+`6`     | *Overrules*\*. When played, its derived value becomes the *derived* value of the previous card and then the game proceeds as it had been its derived value; for example, when playing a `6` on `5`, the derived value of the `6` becomes the derived value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`. Note, when a `6` is played as the first card in the discard pile, it gets the special derived value of `table`.
 `7`     | *Overrules*\*. The player decides whether the following player must play higher or lower in base value than `7`. `7`s can be played on `7`s.
 `8`     | Skips the turn of the following player.
 `9`     | Any card can be played on a `9`.
@@ -80,7 +80,7 @@ Value   | Ability
 `Q`     | The player must play another card after playing a `Q`, but it must be able to be played on a `Q`.
 `K`     | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa.
 `A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
-`Joker` | Cancels the power of the previous card, and its derived value becomes the *base* value of the previous card. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below).
+`Joker` | Cancels the power of the previous card, and its derived value becomes the *base* value of the previous card. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below). Like the `6`, when the `Joker` is played as the first card in the discard pile, it gets the special derived value of `table`.
 
 \* Able to be placed on cards which have a greater derived value.
 
@@ -113,7 +113,7 @@ Value   | Ability
 `4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
 `5`     | Cards of derived value `5` now swap with face down cards rather than face up cards.
 `6`     | The top card of the source pile is always face-up. When players pick up multiple cards, they should reveal each card in turn.
-`7`     | The player decides whether the next player must play higher or lower in base value than the card played (though playing a card of the same base value is always allowed).
+`7`     | The player decides whether the next player must play higher or lower than the derived value of the card played (though playing a card of the same base value is always allowed). Note: this beats the ability of the `9`: e.g. playing a `9` and saying 'lower' requires the following card to be lower than `9`. Also, all other card values may be regarded as both higher and lower than the special derived value `table`.
 `8`     | Any card played has its base ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
 `9`     | All cards of base value equal to or less than `9` have derived value `9`.
 `10`    | When cards are burned they are added to the bottom of the source pile, if it exists. This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
@@ -126,6 +126,12 @@ Value   | Ability
 As before, all field abilities are stackable.
 
 Note that if a `6` and at least one `A` are chosen as the initial field cards, then the effect of the `6` preceeds that of the `A`. That is, the top card of the source pile should be revealed, *then* each player should take more cards as appropriate.
+
+
+Disambiguation
+--------------
+
+- The card abilities of `4` and `Q` transcend the hand, while the ability to play multiple cards does not. What this means is that once the source pile has been emptied, if a player plays starts a run with the last cards of their hand, they may continue this run with their face up or face down cards as apporpriate, if possible (they may try playing continuing with a face down card, but if this fails then they must pick up the discard pile). Similarly, if player plays a card with derived value `Q` as the last card of their hand, they may play a card from their face up or face down cards, as appropriate, as per the card ability of the `Q`. However, a player cannot, for example, play a `5` as the last card of their hand and then in addition play a `5` from their face up cards; neither can they try using one of their face down cards as such.
 
 
 Note on Two Player Games
