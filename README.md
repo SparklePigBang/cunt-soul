@@ -1,7 +1,7 @@
 The Official Rules of the Card Game: Cunt-Soul
 ==============================================
 
-*Version 1.1*
+*Version 1.2*
 
 
 Introduction
@@ -18,10 +18,10 @@ The dealer deals each player three face down cards and nine cards for their hand
 ![Set-up][setup-img]
 
 
-Base and Derived Value
-----------------------
+Syntactic and Semantic Value
+----------------------------
 
-In Cunt Soul, all cards have a *base* value and a *dervied* value. The base value is the value as displayed on the card, e.g. `5` or `J`. By default, the derived value is the base value, however a card may have its derived value altered as a result of the mechanics of the game. In some situations, a card may get a special derived value: `table`.
+In Cunt Soul, all cards have a *syntactic* value and a *semantic* value. The syntactic value is the value as displayed on the card, e.g. `5` or `J`. By default, the semantic value is the syntactic value, however a card may have its semantic value altered as a result of the mechanics of the game. In some situations, a card may get a special semantic value: `table`.
 
 
 Starting the Game
@@ -33,17 +33,24 @@ Each player selects three cards from their hands which will be placed face up an
 Basic Game Mechanics
 --------------------
 
-A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same *base* value can be played at once. Generally, cards played must have a base value greater than or equal to the derived value of previous, though many cards have the ability to affect this. When there are no cards in the discard pile, any card can be played. If a player has no valid cards to play, they must pick up the enitire discard pile; play then resumes with the next player.
+A player's turn consists of playing one or more cards onto the discard pile. Multiple cards of the same *syntactic* value can be played at once. 
 
-When a player's hand is reduced below the default hand size of 5, they should pick up from the source pile until they have 5 cards in their hand (the default hand size is increased by 1 for every ace in the field card position, see below).
+> A collection of one or more cards of the same syntactic value which get played during a player's turn is called a *link* (the *value* of a link is the value of any of its members). 
+> A *chain* is a collection of links played sequentially one after another (according to the card abilities) in a player's turn. Usually a player's turn consists of only one chain, and a chain consists of only one link, however certain card and field card abilities can affect this.
 
-Players cannot play their face up or face down cards until they have played all cards from their hand and the source pile has been emptied. Once a player gains access to their face up cards, they must play all three before gaining access to their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile.
+Generally, links played must have a syntactic value greater than or equal to the semantic value of previous, though many cad values have the ability to affect this. When there are no cards in the discard pile, a link of any value can be played. If a player has no valid cards to play, they must pick up the enitire discard pile; play then resumes with the next player.
 
+When a player's hand is reduced below the default hand size of 5 at the end of their turn, they replenish from the source pile (as long as it still exists) until they have 5 cards in their hand (note: the default hand size is increased by 1 for every `A` in the field card position, see below).
 
-Burning
--------
+Once the source pile has been exhausted, players no longer relpenish their hand. When a player then uses up all the cards in their hand, they may start playing their face up cards as if they were cards in their hand (in any other). However, if at any time they cannot play, they must pick up the whole discard pile into their hand, and use up its cards before they can regain access to their face up cards.
 
-Under certain conditions, the discard pile gets burned. In this situation, whole discard pile is taken out of the game and the player who brought about the burn has another turn.
+Once a player has used all their face up cards, they may then play their face down cards. If it is revealed on playing a face down card that that card is not valid, then the player who played that card must pick up the entire discard pile (along with the played card).
+
+Finally, once a player has played all their face down cards, they take their field card into their hand, which may be played as normal.
+
+Note that plays trancend the barrier between a players hand and their face up/face down cards (and also their field card). In other words, a chain can consist of cards taken both from a players hand, their face up/face down cards, and their field card (as long the cards are played in a valid order: a player wishing to make a chain including cards from their hand and their face up cards may only do so when they have no other cards in their hand, nor are there cards in the source pile, for example). The same does not apply to links however.
+
+Under certain conditions, the discard pile gets burned. In this situation, whole discard pile is taken out of the game. 
 
 
 Changing Field Cards
@@ -53,6 +60,8 @@ Although there is no obligation to change field cards, players may wish to chang
 
 A player wishing to change their field card may do so providing they have not changed field card more than three times prior to this occasion and that the source pile still exists. A player aiming to change their field card does so at the start of their turn; they swap their current field card for one in their hand. Note: it must be done in this order.
 
+Note that when a player has played all their face down cards and picks up their field card, the field card ability ends at the end of their turn.
+
 
 Winning the Game
 ----------------
@@ -60,39 +69,39 @@ Winning the Game
 To win the game a player must simply play all of their face down cards; however, play continues until last place has been decided, this player is dubbed the 'sole-cunt'.
 
 
-Abilities
+Card Abilities
 --------------
 
-Each value has a special ability that comes into effect each time a card with that value is played. Initially this is the base value, but sometimes this will be the derived value.
+Each link has a special ability. Initially, this special ability is determined by its syntactic value, as given in the following table.
 
 Value   | Ability
 --------|-------------------------------------------
 `2`     | *Overrules*\*.
-`3`     | Following player must play a base-`3`.
-`4`     | Allows the player to play a run of cards—in terms of base value—from `4` up to at least up to `6`. All cards in the run are 'ability-less': their card abilities are not in effect. Multiples of cards of the same base value may still be placed.
-`5`     | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced by a horizontal face up card.
-`6`     | *Overrules*\*. When played, its derived value becomes the *derived* value of the previous card and then the game proceeds as it had been its derived value; for example, when playing a `6` on `5`, the derived value of the `6` becomes the derived value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`. Note, when a `6` is played as the first card in the discard pile, it gets the special derived value of `table`.
-`7`     | *Overrules*\*. The player decides whether the following player must play higher or lower in base value than `7`. `7`s can be played on `7`s.
-`8`     | Skips the turn of the following player.
-`9`     | Any card can be played on a `9`.
+`3`     | Following player must play a syntactic-`3` or syntactic-`Joker`.
+`4`     | Allows the player to extend the current chain by playing a run of links from the `4` up to at least up to `6`. All links in the chain are 'ability-less': their abilities are not in effect.
+`5`\*\* | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced by a horizontal face up card.
+`6`     | *Overrules*\*. When played, its semantic value of the link becomes the *semantic* value of the previous link and then the game proceeds as it had been its semantic value; for example, when playing a `6` on `5`, the semantic value of the `6` becomes the semantic value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`. Note, when a `6` is played as the first link in the discard pile, it gets the special semantic value of `table`.
+`7`     | *Overrules*\*. The player decides whether the following player must play higher or lower in syntactic value than `7`. `7`s can be played on `7`s.
+`8`\*\* | Skips the turn of the following player.
+`9`     | Any link can be played on a `9`.
 `10`    | *Overrules*\*. Burns the discard pile.
 `J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
-`Q`     | The player must play another card after playing a `Q`, but it must be able to be played on a `Q`.
-`K`     | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa.
-`A`     | High card, if a player plays on an ace they must pick up additional cards equal to the number of aces in the stack.
-`Joker` | Cancels the power of the previous card, and its derived value becomes the *base* value of the previous card. Can be played on absolutley any card (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below). Like the `6`, when the `Joker` is played as the first card in the discard pile, it gets the special derived value of `table`.
+`Q`     | The player must extend the current chain by playing another link after playing the `Q` (but it must be able to be played on a `Q`: if they cannot do so, they must pick up the discard pile).
+`K`\*\* | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa.
+`A`\*\* | High card; if a player plays on an ace they must pick up additional cards equal to the number of aces in the link.
+`Joker` | Cancels the power of the previous link, and its semantic value becomes the *syntactic* value of the previous card. Can be played on absolutley any value (including a `3`). `Joker`s act retroactively, and as such may give rise to paradoxes (see below). Like the `6`, when the `Joker` is played as the first card in the discard pile, it gets the special semantic value of `table`.
 
-\* Able to be placed on cards which have a greater derived value.
+\* Able to be placed on cards which have a greater semantic value (except when a played `7` prevents this).
 
-Every card power stacks (so placing two `8`s skips two people). Note that this has no effect on the `Q`s for the following reason: Though playing multiple `Q`s should require the player to play multiple cards together, mulitple `Q`s can also be interpreted as a string of `Q`s, where each is played because of the previous' power.
+\*\* These card abilities stack within links.
 
-There is one non card specific effect: whenever four cards of the same base value are played consecutively, they burn.
+There is one non card specific effect: whenever four cards of the same syntactic value are played consecutively, they burn.
 
 
 Jokers and Paradoxes
 --------------------
 
-Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker` is played on an `8`, then the `Joker` cancels the power of the `8` (skipping a person), so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The cards for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (if the `6` is played on a card of higher derived value).
+Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker` link is played on an `8`, then the `Joker` cancels the power of the `8` (skipping a person) retroactively, so that the `Joker` couldn't have been played, but then the `8`s power wouldn't have been cancelled, so the `Joker` would have been played, and so on. This situation causes the discard pile to burn, as above. The values for which this situation arises are: `8`, `Q`, `J` (when the person chosen by the `J`-placer would not normally be next), `K` (in games of more than two people), `6` (if the `6` is played on a card of higher semantic value).
 
 The fact that `Joker`s act retroactively also has other concequences. When a `Joker` is played on a `4` which has been used to start a run, the player who played the `4` and the run must pick up the whole run (excluding the `4`). When a `Joker` is played on a `5` that was used to swap a card, the player who played the `5` and swapped must swap back.
 
@@ -106,32 +115,26 @@ The field cards have been designed such that they change the flow of the game dr
 
 Find below the field abilities.
 
-Value   | Ability
+Value   | Field Ability
 --------|-------------------------------------------
 `2`     | Stops all values except `2` from *Overruling*.
-`3`     | Whenever three of any card appear consecutively in the discard pile, their derived value becomes `3`, which then act in accordance with the ability of the `3`.
-`4`     | Stops players playing multiple cards unless allowed to do so by a card ability.
-`5`     | Cards of derived value `5` now swap with face down cards rather than face up cards.
-`6`     | The top card of the source pile is always face-up. When players pick up multiple cards, they should reveal each card in turn.
-`7`     | The player decides whether the next player must play higher or lower than the derived value of the card played (though playing a card of the same base value is always allowed). Note: this beats the ability of the `9`: e.g. playing a `9` and saying 'lower' requires the following card to be lower than `9`. Also, all other card values may be regarded as both higher and lower than the special derived value `table`.
-`8`     | Any card played has its base ability stacked once, e.g. `K`s change direction twice, and single `8`s skip two players.
-`9`     | All cards of base value equal to or less than `9` have derived value `9`.
-`10`    | When cards are burned they are added to the bottom of the source pile, if it exists. This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
+`3`     | Whenever three cards of the same syntactic value appear consecutively in the discard pile, their semantic value becomes `3`, which then act in accordance with the ability of the `3`. (Technically speaking, the link which contains each of the cards gets semantic value `3`.)
+`4`     | Pods can no longer consist of more than one card.
+`5`     | Pods of semantic value `5` now swap with face down cards rather than face up cards.
+`6`     | The source pile is flipped up-side down. Players now draw from the face-up side; as such every other player can see what they draw.
+`7`     | Each player decides whether the next player must play higher or lower than the semantic value of the link played (though playing a link of the same syntactic value is always allowed). Note: this beats the ability of the `9`: e.g. playing a `9` and saying 'lower' requires the following link to be lower than `9`. Also, all other values may be regarded as both higher and lower than the special semantic value `table`.
+`8`     | With regards to card abilities, all links now contain twice as many cards; e.g. a link consisting of a single `K` changes the direction twice, and a link consisting of two `8`s skips four players.
+`9`     | All links of syntactic value equal to or less than `9` get semantic value `9` by default (note that when there's a `3` as a field card, the field ablity of the `3` overrides that of the `9`: e.g. three `4`s get semantic value `3`, rather than `9`).
+`10`    | When cards are burned they are added to the bottom of the source pile, if it exists (otherwise they burn normally). This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
 `J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). This does not override normal cards, e.g. if an `8` is placed, the person who played does not get to choose the next player, and one person is skipped.
-`Q`     | No abilities stack.
+`Q`     | No abilities stack within links.
 `K`     | Changes the orientation of play e.g. from playing equal or higher (in value) to playing equal or lower. This also affects the `4`: runs now go in reverse.
 `A`     | Increases the number of cards in the normal hand by 1.
-`Joker` | Cancels all abilities.
+`Joker` | Cancels all card abilities.
 
 As before, all field abilities are stackable.
 
 Note that if a `6` and at least one `A` are chosen as the initial field cards, then the effect of the `6` preceeds that of the `A`. That is, the top card of the source pile should be revealed, *then* each player should take more cards as appropriate.
-
-
-Disambiguation
---------------
-
-- The card abilities of `4` and `Q` transcend the hand, while the ability to play multiple cards does not. What this means is that once the source pile has been emptied, if a player plays starts a run with the last cards of their hand, they may continue this run with their face up or face down cards as apporpriate, if possible (they may try playing continuing with a face down card, but if this fails then they must pick up the discard pile). Similarly, if player plays a card with derived value `Q` as the last card of their hand, they may play a card from their face up or face down cards, as appropriate, as per the card ability of the `Q`. However, a player cannot, for example, play a `5` as the last card of their hand and then in addition play a `5` from their face up cards; neither can they try using one of their face down cards as such.
 
 
 Note on Two Player Games
