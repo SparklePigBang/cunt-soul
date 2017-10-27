@@ -1,7 +1,7 @@
 The Official Rules of the Card Game: Cunt-Soul
 ==============================================
 
-*Version 1.2*
+*Version 1.3*
 
 
 Introduction
