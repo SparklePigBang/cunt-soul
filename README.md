@@ -53,6 +53,12 @@ Note that plays trancend the barrier between a players hand and their face up/fa
 Under certain conditions, the discard pile gets burned. In this situation, whole discard pile is taken out of the game. 
 
 
+The Queue
+---------
+
+Certain card and field card abilities have an effect on whose turn it is after a card is played. For situations in which multiple effects occur at once, there is a mechanic, called the 'queue', which resolves these. At the very beginning of a player's turn, the queue is initialies with the single item 'Move to the next player in the direction of play'. Effects on the order of play get added to the queue in a deterministic manner, and then at the very end of a players turn the effects are resolved beginning with the first to enter the queue.
+
+
 Changing Field Cards
 --------------------
 
@@ -82,10 +88,10 @@ Value   | Ability
 `5`\*\* | Allows the player to swap any one card in their hand with one of their face up cards, if they want. Note that a horizontal face up card must be replaced by a horizontal face up card.
 `6`     | *Overrules*\*. When played, its semantic value of the link becomes the *semantic* value of the previous link and then the game proceeds as it had been its semantic value; for example, when playing a `6` on `5`, the semantic value of the `6` becomes the semantic value of the `5`—that is, a `5`—and then the player who played the `6` can swap with a face up card, as per the ability of the `5`. Note, when a `6` is played as the first link in the discard pile, it gets the special semantic value of `table`.
 `7`     | *Overrules*\*. The player decides whether the following player must play higher or lower in syntactic value than `7`. `7`s can be played on `7`s.
-`8`\*\* | Skips the turn of the following player.
+`8`\*\* | Adds 'Skip one player' to the queue.
 `9`     | Any link can be played on a `9`.
 `10`    | *Overrules*\*. Burns the discard pile.
-`J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves).
+`J`     | The player gets to choose whose turn it will be after them (they cannot choose themselves). The effect is that a new item is added to the queue 'Move to player *X*', where *X* is the chosen player.
 `Q`     | The player must extend the current chain by playing another link after playing the `Q` (but it must be able to be played on a `Q`: if they cannot do so, they must pick up the discard pile).
 `K`\*\* | Changes the direction of play i.e. clockwise to anti-clockwise or vice-versa.
 `A`\*\* | High card; if a player plays on an ace they must pick up additional cards equal to the number of aces in the link.
@@ -106,6 +112,12 @@ Since `Joker`s act retroactively, paradoxes can arise. For example, if a `Joker`
 The fact that `Joker`s act retroactively also has other concequences. When a `Joker` is played on a `4` which has been used to start a run, the player who played the `4` and the run must pick up the whole run (excluding the `4`). When a `Joker` is played on a `5` that was used to swap a card, the player who played the `5` and swapped must swap back.
 
 
+Value Ordering
+--------------
+
+The usual ordering of card values is `table`, `2`, `3`, ... `10`, `J`, `Q`, `K`, `A`. However, some field card abilities affect this. In order to make this precise, there is the notion of an `ordering`. An ordering tells you for every card value which other values may normally be placed on it. (For mathematicians: an ordering is some strict partial-order.)
+
+
 Field Abilities
 ---------------
 
@@ -113,7 +125,7 @@ As well as each value having an ability it also has a field ability. This is a g
 
 The field cards have been designed such that they change the flow of the game dramatically; as such, in order to swap, each player must sacrifice their effectiveness in the later game. For more details on field cards, please see the section on changing field cards. 
 
-Find below the field abilities.
+Find below the field abilities. Note that field card abilities that add effects to the queue do so after any card abilities have been added to the queue.
 
 Value   | Field Ability
 --------|-------------------------------------------
@@ -122,13 +134,13 @@ Value   | Field Ability
 `4`     | Pods can no longer consist of more than one card.
 `5`     | Pods of semantic value `5` now swap with face down cards rather than face up cards.
 `6`     | The source pile is flipped up-side down. Players now draw from the face-up side; as such every other player can see what they draw.
-`7`     | Each player decides whether the next player must play higher or lower than the semantic value of the link played (though playing a link of the same syntactic value is always allowed). Note: this beats the ability of the `9`: e.g. playing a `9` and saying 'lower' requires the following link to be lower than `9`. Also, all other values may be regarded as both higher and lower than the special semantic value `table`.
+`7`     | Bifurcates the ordering in the following sense: all cards of value less than `7` only allow links of lower or equal value to be played, and cards of value greater than `7` only allow links of greater or equal value to be played. Both `7` and `table` are at the base of the ordering, allowing anything to be played in them.
 `8`     | With regards to card abilities, all links now contain twice as many cards; e.g. a link consisting of a single `K` changes the direction twice, and a link consisting of two `8`s skips four players.
 `9`     | All links of syntactic value equal to or less than `9` get semantic value `9` by default (note that when there's a `3` as a field card, the field ablity of the `3` overrides that of the `9`: e.g. three `4`s get semantic value `3`, rather than `9`).
 `10`    | When cards are burned they are added to the bottom of the source pile, if it exists (otherwise they burn normally). This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
-`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). This does not override normal cards, e.g. if an `8` is placed, the person who played does not get to choose the next player, and one person is skipped.
+`J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). The effect is that a new item is added to the queue 'Move to player *X*', where *X* is the chosen player.
 `Q`     | No abilities stack within links.
-`K`     | Changes the orientation of play e.g. from playing equal or higher (in value) to playing equal or lower. This also affects the `4`: runs now go in reverse.
+`K`     | Reverses the ordering (except that `table` remains at the base). So, for example, the usual ordering is transformed to `table`, `A`, `K`, `Q`, `J`, `10`, `9`, ..., `2`, and when there is an odd number of `7`s in the field card position, the ordering is as follows: all cards of value less than `7` only allow links of greater or equal value, but with value less than or equal to `7`, to be played, and cards of value greater than `7` only allow links of lower or equal value, but with value less than or equal to `7`, to be played. `table` remains at the base of the ordering, allowing anything to be played in them. 
 `A`     | Increases the number of cards in the normal hand by 1.
 `Joker` | Cancels all card abilities.
 
