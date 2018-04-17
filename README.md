@@ -115,7 +115,9 @@ The fact that `Joker`s act retroactively also has other concequences. When a `Jo
 Value Ordering
 --------------
 
-The usual ordering of card values is `table`, `2`, `3`, ... `10`, `J`, `Q`, `K`, `A`. However, some field card abilities affect this. In order to make this precise, there is the notion of an `ordering`. An ordering tells you for every card value which other values may normally be placed on it. (For mathematicians: an ordering is some strict partial-order.)
+The usual ordering of card values is `2`, `3`, ... `10`, `J`, `Q`, `K`, `A`. However, some field card abilities affect this. In order to make this precise, there is the notion of an `ordering`. An ordering tells you for every card value which other values may normally be placed on it. (For mathematicians: an ordering is some strict partial-order.) Regardless of the ordering however, any card may be placed on `table`, and `joker` may be placed on any card.
+
+This ordering also affects runs played with `4`s: a run with a `4` must begin at `4` and proceed along the ordering of the values (ignoring `table` and `joker` of course); it must make at least two steps. As in the case with the usual ordering, if a run reaches a value that is maximal in the ordering (e.g. `A` in the usual ordering), it can continue with a value that is minimal in the ordering (e.g. `2` in the usual ordering).
 
 
 Field Abilities
@@ -131,18 +133,18 @@ Value   | Field Ability
 --------|-------------------------------------------
 `2`     | Stops all values except `2` from *Overruling*.
 `3`     | Whenever three cards of the same syntactic value appear consecutively in the discard pile, their semantic value becomes `3`, which then act in accordance with the ability of the `3`. (Technically speaking, the link which contains each of the cards gets semantic value `3`.)
-`4`     | Pods can no longer consist of more than one card.
-`5`     | Pods of semantic value `5` now swap with face down cards rather than face up cards.
+`4`     | Links can no longer consist of more than one card.
+`5`     | Links of semantic value `5` now swap with face down cards rather than face up cards. This works as follows: the player selects one of their face-down cards, looks at it, then may either return it or replace it with a card from their hand.
 `6`     | The source pile is flipped up-side down. Players now draw from the face-up side; as such every other player can see what they draw.
-`7`     | Bifurcates the ordering in the following sense: all cards of value less than `7` only allow links of lower or equal value to be played, and cards of value greater than `7` only allow links of greater or equal value to be played. Both `7` and `table` are at the base of the ordering, allowing anything to be played in them.
-`8`     | With regards to card abilities, all links now contain twice as many cards; e.g. a link consisting of a single `K` changes the direction twice, and a link consisting of two `8`s skips four players.
+`7`     | Bifurcates the ordering in the following sense: all cards of value less than `7` only allow links of lower or equal value to be played, and cards of value greater than `7` only allow links of greater or equal value to be played. `7` is at the base of the ordering, allowing anything to be played in it.
+`8`     | Introduces a 'skip-token' (it may be helpful to represent this with a physical token). A skip-token has two states: 'active' and 'inactive'. This token is first given to the next player in the play order in the 'active' state. If a player has an 'active' skip-token at the beginning of their turn, then it is effectively skipped: their turn consists entirely of switching the skip-token to the 'inactive' state. If a player has an 'inactive' skip-token at the beginning of their turn, they first pass it to the next person in the play order (in the 'active' state), then proceed with their turn as normal.
 `9`     | All links of syntactic value equal to or less than `9` get semantic value `9` by default (note that when there's a `3` as a field card, the field ablity of the `3` overrides that of the `9`: e.g. three `4`s get semantic value `3`, rather than `9`).
 `10`    | When cards are burned they are added to the bottom of the source pile, if it exists (otherwise they burn normally). This affects the burning of face up cards when changing field cards. Warning: if a `10` is played as the last possible field card (so all players have their face up cards horizontal), then it will probably take a long time to finish the game, since it is no longer possible for cards to leave the game by burning; do this with caution!
 `J`     | After every card played, that player gets to choose whose turn it will be next (but they can't choose themselves). The effect is that a new item is added to the queue 'Move to player *X*', where *X* is the chosen player.
-`Q`     | No abilities stack within links.
-`K`     | Reverses the ordering (except that `table` remains at the base). So, for example, the usual ordering is transformed to `table`, `A`, `K`, `Q`, `J`, `10`, `9`, ..., `2`, and when there is an odd number of `7`s in the field card position, the ordering is as follows: all cards of value less than `7` only allow links of greater or equal value, but with value less than or equal to `7`, to be played, and cards of value greater than `7` only allow links of lower or equal value, but with value less than or equal to `7`, to be played. `table` remains at the base of the ordering, allowing anything to be played in them. 
+`Q`     | Every chain must contain at least two cards.
+`K`     | Reverses the ordering. So, for example, the usual ordering is transformed to `A`, `K`, `Q`, `J`, `10`, `9`, ..., `2`, and when there is an odd number of `7`s in the field card position, the ordering is as follows: all cards of value less than `7` only allow links of greater or equal value, but with value less than or equal to `7`, to be played, and cards of value greater than `7` only allow links of lower or equal value, but with value less than or equal to `7`, to be played.
 `A`     | Increases the number of cards in the normal hand by 1.
-`Joker` | Cancels all card abilities.
+`Joker` | Disables all card abilities.
 
 As before, all field abilities are stackable.
 
@@ -170,7 +172,7 @@ Value   | Ability 			| Field Ability
 `9`     | Clean Slate		| We the People
 `10`    | Burn 				| Phoenixes
 `J`     | Chivalry			| Plague of Chivalry
-`Q`     | And Another		| No Shelves
+`Q`     | And Another		| At Least Two
 `K`     | Back to You		| Unnatural Order
 `A`     | High Five			| Big Hand
 `Joker` | Neutralise		| Exterminate
